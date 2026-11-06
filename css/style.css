@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #4c545d;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+p {
+    color: #9fabb2;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* =========================
+   Section 1: Header
+========================= */
+
+.header {
+    background-image: url("/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+
+    padding: 130px 20px 80px;
+}
+
+.logo {
+    margin-bottom: 55px;
+}
+
+.logo img {
+    width: 125px;
+}
+
+.header h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.header p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+}
+
+
+/* =========================
+   Buttons
+========================= */
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.btn-green {
+    background-color: #26baa4;
+    box-shadow: 0 3px 0 #199c89;
+}
+
+.btn-blue {
+    background-color: #6173ff;
+    box-shadow: 0 3px 0 #4b5cdd;
+}
+
+.btn:hover {
+    opacity: 0.75;
+}
+
+
+/* =========================
+   Section Heading
+========================= */
+
+.section-heading {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-heading h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.section-heading p {
+    margin-bottom: 50px;
+}
+
+
+/* =========================
+   Section 2: Track
+========================= */
+
+.track {
+    padding: 50px 0 100px;
+}
+
+.computer-section {
+    text-align: left;
+    margin-top: 60px;
+}
+
+.computer-image {
+    display: inline-block;
+    width: 58%;
+    vertical-align: middle;
+    margin-left: -30px;
+}
+
+.computer-image img {
+    width: 100%;
+}
+
+.computer-features {
+    display: inline-block;
+    width: 32%;
+    vertical-align: middle;
+    margin-left: 65px;
+}
+
+.feature {
+    margin-bottom: 35px;
+    max-width: 350px;
+}
+
+.feature h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 15px;
+}
+
+
+/* =========================
+   Section 3: Access
+========================= */
+
+.access {
+    padding: 30px 20px 100px;
+}
+
+.devices-image {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.devices-image img {
+    width: 100%;
+}
+
+
+/* =========================
+   Section 4: Workflow
+========================= */
+
+.workflow {
+    padding: 20px 20px 100px;
+}
+
+.workflow-features {
+    max-width: 1150px;
+    margin: 60px auto 0;
+}
+
+.workflow-item {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 10px;
+}
+
+.workflow-item img {
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+.workflow-item h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.workflow-item p {
+    font-size: 15px;
+}
+
+
+/* =========================
+   Section 5: Companies
+========================= */
+
+.companies {
+    padding: 30px 20px 100px;
+    text-align: center;
+}
+
+.company {
+    display: inline-block;
+    width: 17%;
+    vertical-align: middle;
+    margin: 15px 1%;
+}
+
+.company img {
+    max-width: 150px;
+    width: 100%;
+}
+
+
+/* =========================
+   Section 6: Download
+========================= */
+
+.download {
+    padding: 20px 20px 120px;
+}
+
+.download .section-heading p {
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+.footer {
+    background-color: #f5f6f8;
+    padding: 40px 7%;
+    text-align: left;
+}
+
+.footer-logo {
+    display: inline-block;
+    width: 15%;
+    vertical-align: middle;
+}
+
+.footer-logo img {
+    width: 60px;
+}
+
+.footer-links {
+    display: inline-block;
+    width: 65%;
+    vertical-align: middle;
+}
+
+.footer-column {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.footer-column a {
+    display: block;
+    color: #4c545d;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.footer-column a:hover {
+    color: #26baa4;
+}
+
+.social-icons {
+    display: inline-block;
+    width: 18%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #4c545d;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.social-icons a:hover {
+    color: #26baa4;
+}
+
